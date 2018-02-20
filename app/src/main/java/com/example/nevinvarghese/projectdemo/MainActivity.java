@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         androidImageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"LOADING DISEASE PREDICTOR",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"LOADING CHATBOT",Toast.LENGTH_LONG).show();
             }
         });
 
