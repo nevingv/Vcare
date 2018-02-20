@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Projectdemo</string>
     <string name="title_activity_maps">Map</string>
+    <array name="data">
+        <item>Headache</item>
+        <item>body pain</item>
+        <item>fever</item>
+        <item>drowsiness</item>
+        <item>vomiting</item>
+        <item>body pain</item>
+        <item>body pain</item>
+        <item>body pain</item>
+    </array>
 </resources>
