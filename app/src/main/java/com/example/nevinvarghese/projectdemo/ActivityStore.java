@@ -26,7 +26,7 @@ public class ActivityStore extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store);
         arrayList=new ArrayList<>();
-        Toast.makeText(ActivityStore.this,"lgjhgkjh",Toast.LENGTH_LONG).show();
+        Toast.makeText(ActivityStore.this,"LOADING.....",Toast.LENGTH_LONG).show();
         sp=(Spinner)findViewById(R.id.spinner);
         symptoms=(EditText) findViewById(R.id.symptoms);
 

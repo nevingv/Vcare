@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(i);
-                Toast.makeText(MainActivity.this,"No nearby drs",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"FINDING NEARBY HOSPITALS AND PHARMACIES",Toast.LENGTH_LONG).show();
             }
         });
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         androidImageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"disease no",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"LOADING DISEASE PREDICTOR",Toast.LENGTH_LONG).show();
             }
         });
 
