@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Projectdemo</string>
+
     <string name="title_activity_maps">Map</string>
+    <string name="username">034ed205-fd3f-47de-994f-e1e77ec8dfdd</string>
+    <string name="password">0TGBJIiuLXzg</string>
+    <string name="workspace">1dcedebe-3bc6-4ad2-a646-8da8b53e87b7</string>
+
     <array name="data">
         <item>Headache</item>
         <item>body pain</item>

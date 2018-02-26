@@ -320,7 +320,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .position(new LatLng(lat,lng))
                 .title("User")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.loc)));
-       mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(lat,lng)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(lat,lng)));
 
 
         JsonURLGallery = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location="+lat+","+lng+"&radius=5000&type=hospital&key=AIzaSyACEdCb1G7wu1pa86RExAnmm5l8hg0ldks";

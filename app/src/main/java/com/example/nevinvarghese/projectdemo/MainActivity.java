@@ -39,13 +39,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         androidImageButton3=(ImageButton)findViewById(R.id.imageButton3);
         androidImageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"LOADING CHATBOT",Toast.LENGTH_LONG).show();
+                Intent i = new Intent(MainActivity.this, AskMe.class);
+                startActivity(i);
+                Toast.makeText(MainActivity.this,"Ask me for help",Toast.LENGTH_LONG).show();
             }
         });
+
+
+
+
+
+
 
 
 

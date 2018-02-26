@@ -28,6 +28,7 @@
             android:name=".MainActivity"
             android:label="VCARE" />
         <activity android:name=".ActivityStore" />
+        <activity android:name=".AskMe" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
