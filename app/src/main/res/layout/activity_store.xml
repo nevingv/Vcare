@@ -33,11 +33,24 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="8dp" />
 
+    <co.lujun.androidtagview.TagContainerLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:id="@+id/tagContainer"
+        android:padding="10dp"
+        app:container_enable_drag="false"
+        app:horizontal_interval="10dp"
+        app:vertical_interval="10dp"
+        app:tag_clickable="true"
+        app:tag_theme="pure_teal" />
+
     <EditText
         android:id="@+id/symptoms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
+        android:visibility="gone"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp" />
 
@@ -49,6 +62,26 @@
         android:background="@color/colorAccent"
         android:text="Search"
         android:textColor="#fff" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/diseaese1"
+        android:layout_margin="5dp"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/diseaese2"
+        android:layout_margin="5dp"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/diseaese3"
+        android:layout_margin="5dp"
+        android:textSize="22sp"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>

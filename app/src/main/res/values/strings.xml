@@ -12,8 +12,22 @@
         <item>fever</item>
         <item>drowsiness</item>
         <item>vomiting</item>
-        <item>body pain</item>
-        <item>body pain</item>
-        <item>body pain</item>
+        <item>nausea</item>
+        <item>snuffle</item>
+        <item>sleeplessness</item>
+        <item>blackout</item>
+        <item>agitation</item>
+        <item>tremor</item>
+        <item>hypokinesia</item>
+        <item>cough</item>
+        <item>tachypnea</item>
+        <item>dyspnea</item>
+        <item>egophony</item>
+        <item>palpitation</item>
+        <item>erythema</item>
+        <item>Jomifever</item>
+
+
+
     </array>
 </resources>

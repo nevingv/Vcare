@@ -3,6 +3,7 @@ package com.example.nevinvarghese.projectdemo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
+import android.util.Pair;
 import android.view.KeyEvent;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
@@ -13,7 +14,10 @@ import com.ibm.watson.developer_cloud.conversation.v1.model.MessageRequest;
 import com.ibm.watson.developer_cloud.conversation.v1.model.MessageResponse;
 import com.ibm.watson.developer_cloud.http.ServiceCallback;
 
+import java.util.List;
+
 public class AskMe extends AppCompatActivity {
+    private  List<Pair<String, String>> params ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
