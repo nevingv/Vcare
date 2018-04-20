@@ -7,25 +7,18 @@
     <string name="workspace">1dcedebe-3bc6-4ad2-a646-8da8b53e87b7</string>
 
     <array name="data">
-        <item>Headache</item>
-        <item>body pain</item>
-        <item>fever</item>
-        <item>drowsiness</item>
-        <item>vomiting</item>
-        <item>nausea</item>
-        <item>snuffle</item>
-        <item>sleeplessness</item>
-        <item>blackout</item>
-        <item>agitation</item>
+        <item>stool</item>
+        <item>pain</item>
         <item>tremor</item>
-        <item>hypokinesia</item>
-        <item>cough</item>
-        <item>tachypnea</item>
+        <item>gravida</item>
         <item>dyspnea</item>
-        <item>egophony</item>
-        <item>palpitation</item>
-        <item>erythema</item>
-        <item>Jomifever</item>
+
+        <item>chill</item>
+        <item>snuffle</item>
+        <item>fever</item>
+        <item>numbness</item>
+
+        <item>nausea</item>
 
 
 
